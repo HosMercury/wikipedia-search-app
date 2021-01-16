@@ -1,3 +1,5 @@
-<form (submit)="onFormSbmit($event)">
-    <input (input)="term = $event.target.value">
-</form>
+<div class="box">
+    <form (submit)="onFormSbmit($event)">
+        <input placeholder="snter seach term" (input)="term = $event.target.value" class="input">
+    </form>
+</div>
