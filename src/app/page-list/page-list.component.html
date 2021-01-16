@@ -1,0 +1,16 @@
+<table class="table is-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Word Count</th>
+            <th>Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let page of pages">
+            <td>{{page.title}}</td>
+            <td>{{page.wordCount}}</td>
+            <td>{{page.timestamp}}</td>
+        </tr>
+    </tbody>
+</table>
